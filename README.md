@@ -8,12 +8,19 @@
 
 int main(int argc, char *argv[]){
 			int meusocket;
+   
 			int conecta;
+   
 			int porta;
+   
 			int inicio = 0;
+   
 			int final = 65335;
+   
 			char *destino;
+   
 			destino = argv[1];
+   
 			struct sockaddr_in alvo;
 
 			for (porta=inicio;porta<final;porta ++){
